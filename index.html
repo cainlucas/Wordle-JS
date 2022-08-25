@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://css.gg/backspace.css' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Wordle</title>
+    <script src="./confetti (cópia).js"></script>
+</head>
+<body>
+   <header>
+       <h1>Wordle</h1>
+       <hr>
+    </header>
+    <div class="jogo">
+        <div id="linha1">
+            <div id="cj1" class="caixa-jogo"></div>
+            <div id="cj2" class="caixa-jogo"></div>
+            <div id="cj3" class="caixa-jogo"></div>
+            <div id="cj4" class="caixa-jogo"></div>
+            <div id="cj5" class="caixa-jogo"></div>
+        </div>
+        <div id="linha2">
+            <div id="cj6" class="caixa-jogo"></div>
+            <div id="cj7" class="caixa-jogo"></div>
+            <div id="cj8" class="caixa-jogo"></div>
+            <div id="cj9" class="caixa-jogo"></div>
+            <div id="cj10" class="caixa-jogo"></div>
+        </div>
+        <div id="linha3">
+            <div id="cj11" class="caixa-jogo"></div>
+            <div id="cj12" class="caixa-jogo"></div>
+            <div id="cj13" class="caixa-jogo"></div>
+            <div id="cj14" class="caixa-jogo"></div>
+            <div id="cj15" class="caixa-jogo"></div>
+        </div>
+        <div id="linha4">
+            <div id="cj16" class="caixa-jogo"></div>
+            <div id="cj17" class="caixa-jogo"></div>
+            <div id="cj18" class="caixa-jogo"></div>
+            <div id="cj19" class="caixa-jogo"></div>
+            <div id="cj20" class="caixa-jogo"></div>
+        </div>
+        <div id="linha5">
+            <div id="cj21" class="caixa-jogo"></div>
+            <div id="cj22" class="caixa-jogo"></div>
+            <div id="cj23" class="caixa-jogo"></div>
+            <div id="cj24" class="caixa-jogo"></div>
+            <div id="cj25" class="caixa-jogo"></div>
+        </div>
+        <div id="linha6">
+            <div id="cj26" class="caixa-jogo"></div>
+            <div id="cj27" class="caixa-jogo"></div>
+            <div id="cj28" class="caixa-jogo"></div>
+            <div id="cj29" class="caixa-jogo"></div>
+            <div id="cj30" class="caixa-jogo"></div>
+        </div>
+    </div>
+
+    <div class="teclado">
+        <div class="linha-teclado">
+            <button onclick="getClick(this)" id="Q" class="caixa-teclado outros">Q</button>
+            <button id="W" class="caixa-teclado outros">W</button>
+            <button id="E" class="caixa-teclado outros">E</button>
+            <button id="R" class="caixa-teclado outros">R</button>
+            <button id="T" class="caixa-teclado outros">T</button>
+            <button id="Y" class="caixa-teclado outros">Y</button>
+            <button id="U" class="caixa-teclado outros">U</button>
+            <button id="I" class="caixa-teclado outros">I</button>
+            <button id="O" class="caixa-teclado outros">O</button>
+            <button id="P" class="caixa-teclado outros">P</button>
+        </div>
+        <div class="linha-teclado">
+            <button id="A" class="caixa-teclado outros">A</button>
+            <button id="S" class="caixa-teclado outros">S</button>
+            <button id="D" class="caixa-teclado outros">D</button>
+            <button id="F" class="caixa-teclado outros">F</button>
+            <button id="G" class="caixa-teclado outros">G</button>
+            <button id="H" class="caixa-teclado outros">H</button>
+            <button id="J" class="caixa-teclado outros">J</button>
+            <button id="K" class="caixa-teclado outros">K</button>
+            <button id="L" class="caixa-teclado outros">L</button>
+        </div>
+        <div class="linha-teclado">
+            <button id="ENTER" class="caixa-teclado outros btn-especial">ENTER</button>
+            <button id="Z" class="caixa-teclado outros">Z</button>
+            <button id="X" class="caixa-teclado outros">X</button>
+            <button id="C" class="caixa-teclado outros">C</button>
+            <button id="V" class="caixa-teclado outros">V</button>
+            <button id="B" class="caixa-teclado outros">B</button>
+            <button id="N" class="caixa-teclado outros">N</button>
+            <button id="M" class="caixa-teclado outros">M</button>
+            <button id="BACKSPACE" class="caixa-teclado outros btn-especial"><i class="gg-backspace"></i></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
